@@ -38,7 +38,7 @@ int main(int argc, char *argv[]){
 			return 2;
 		}
 
-		square = _car(nb);
+		square = _car(atof(nb));
 		if (square < 0) {
 			printf("Error: received a negative number from car(), expected a positive value");
 			return -1;
