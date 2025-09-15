@@ -44,7 +44,7 @@ int main(int argc, char *argv[]){
 			return -1;
 		}
 
-		printf("Square of %d is %d", nb, square);
+		printf("Square of %s is %f", nb, square);
 	}
 	return 0;
 }
